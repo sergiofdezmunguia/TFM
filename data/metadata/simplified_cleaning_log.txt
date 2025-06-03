@@ -1,0 +1,1154 @@
+DESCARTADO - S:sample_00311, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00311, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00311, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00241, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00241, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00241, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00117, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00117, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00117, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00117, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00117, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00092, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00092, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00092, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00042, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00042, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00042, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00042, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00340, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00162, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00336, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00336, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00336, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00202, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00202, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00272, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00272, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00272, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00272, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00047, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00093, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00093, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00093, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00093, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00045, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00045, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00045, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00045, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00045, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00075, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00075, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00075, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00069, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00069, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00069, P:4, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (1.9%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00069, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00110, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00110, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00110, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00110, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00083, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00083, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00083, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00099, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00099, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00099, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00099, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00099, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00274, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00274, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00274, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00274, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00195, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00195, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00195, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00198, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00198, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00198, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00105, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00293, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00293, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00293, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00293, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00293, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00226, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00226, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00226, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00226, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00226, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00216, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00216, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00216, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00216, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00216, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00207, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00207, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00084, P:0, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (3.2%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00304, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00304, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00304, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00304, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00222, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00222, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00222, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00222, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00011, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00011, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00011, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00011, P:4, Motivos: Reach_Ratio_Low (3.4%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00011, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00251, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00286, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00286, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00286, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00286, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00286, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00017, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00017, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00017, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00017, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00017, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00002, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00002, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00002, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00002, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00245, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00245, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00315, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00315, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00029, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00029, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00029, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00029, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00231, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00231, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00231, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00210, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00210, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00210, P:2, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00210, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00210, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00027, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00027, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00055, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00055, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00055, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00055, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00125, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00125, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00328, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00328, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00328, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00328, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00252, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00252, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00252, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00197, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00197, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00197, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00197, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00038, P:3, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00038, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00038, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00038, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00038, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00118, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00118, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00118, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00118, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00118, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00022, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00022, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00022, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00022, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00000, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00000, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00000, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00065, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00161, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00161, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00161, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00161, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00161, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00102, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00102, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00102, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00102, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00102, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00113, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00113, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00113, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00113, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00113, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00246, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00246, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00246, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00246, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00246, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00182, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00182, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00182, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00182, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00187, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00187, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00235, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00235, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00081, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00081, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00081, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00081, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00225, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00225, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00225, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00225, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00308, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00308, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00308, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00308, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00196, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00196, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00196, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00196, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00046, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00046, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00046, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00046, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00046, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00156, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00156, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00156, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00156, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00173, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); Reach_Ratio_Low (4.9%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00173, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00173, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00173, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00173, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00028, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00028, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00028, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00028, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00306, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00306, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00306, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00108, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00108, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00108, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00108, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00108, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00129, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00129, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00129, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00129, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00097, P:2, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (3.5%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00097, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00097, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00097, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00044, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00044, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00044, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00044, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00044, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00130, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00130, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00130, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00086, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00086, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00086, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00327, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00327, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (4.1%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00262, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00262, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00262, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00262, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00134, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00052, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00052, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00052, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00338, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00338, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00338, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00016, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00314, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00314, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00098, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00098, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (1.5%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00098, P:4, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00098, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00208, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); Reach_Ratio_Low (5.0%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00208, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (5.0%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00072, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00072, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00072, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00072, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00072, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00255, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00255, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00255, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00255, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00255, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00064, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00064, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00064, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00064, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00278, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00278, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00278, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00121, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00121, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00121, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00176, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00015, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00015, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00015, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00015, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00218, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00218, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00218, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00218, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00145, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00145, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00076, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00076, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00076, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00076, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00076, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00020, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00020, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00143, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00143, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00143, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00025, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00025, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00025, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00250, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00250, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00250, P:3, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (1.5%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00215, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00215, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00189, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00189, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00189, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00189, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00014, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00014, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00014, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00333, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00333, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00223, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00223, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00223, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00223, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00223, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00320, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00320, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00320, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00320, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00320, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00131, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00131, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00131, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00115, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00115, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00115, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00115, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00154, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00154, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00154, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00154, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00316, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00316, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00316, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00177, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00177, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00177, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00031, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00331, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00331, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00273, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00005, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00005, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00005, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00005, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00005, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00082, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00082, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00082, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00178, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00178, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00178, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00178, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00247, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00247, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00247, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00247, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00201, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00201, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00133, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00133, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00133, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00158, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00158, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00158, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00158, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00158, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00080, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00080, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00080, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00080, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00132, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00132, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00132, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00132, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00026, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00026, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00026, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00026, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00026, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00219, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00219, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00219, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00219, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00106, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00106, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00106, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00288, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00288, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00288, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00288, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00265, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00265, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00265, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00265, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00085, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00085, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00248, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00299, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00299, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00299, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00299, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00211, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00211, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00211, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00211, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00280, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00280, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00280, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00280, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00280, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00270, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00270, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00270, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00270, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00270, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00036, P:4, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (3.8%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00036, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00032, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00032, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00032, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00240, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00240, P:4, Motivos: Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00240, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00240, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00087, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00087, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00087, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00087, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00087, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00302, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00302, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00302, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00302, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00302, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00114, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00114, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00114, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00114, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00019, P:1, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (2.3%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00019, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00019, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00019, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00152, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00152, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00152, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00152, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00324, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00324, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00319, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00319, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00319, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00319, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00021, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00021, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (1.6%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00021, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00122, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00122, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00122, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00122, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00260, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00260, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00260, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00260, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00165, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00165, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00165, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00165, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00141, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00141, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00141, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00035, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00035, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00035, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00035, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00181, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00181, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00181, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00228, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00228, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00228, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00228, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00261, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00261, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00261, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00261, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00018, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00192, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00192, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00192, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00192, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00120, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00120, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00120, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00120, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00209, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00209, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00209, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00209, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00209, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00096, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00096, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00062, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00062, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00050, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00050, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00050, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00268, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00268, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00268, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00268, P:2, Motivos: GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00268, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00159, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00159, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00275, P:2, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00275, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00275, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00271, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00271, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00271, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00271, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00049, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00049, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00049, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00007, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00007, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00007, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00007, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00305, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00305, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00305, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00305, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00305, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00321, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00321, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00321, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00321, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00297, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00297, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00297, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00101, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00101, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00101, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00101, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00313, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00313, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00313, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00313, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00167, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00167, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00167, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00167, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00167, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00193, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00193, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00193, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00193, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00193, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00300, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00300, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00300, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00010, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00010, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00010, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00010, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00010, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00234, P:1, Motivos: Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00234, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00234, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (4.6%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00234, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00234, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (4.6%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00001, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00001, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00001, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00111, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00111, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00111, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00111, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00254, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00254, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00254, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00061, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00061, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00061, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00290, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00290, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00290, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00290, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00040, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00040, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00054, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00054, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00054, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00054, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00054, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00276, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00276, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00041, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00041, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00041, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00041, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00041, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00037, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00037, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00037, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00037, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00037, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00237, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00237, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00237, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00127, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00127, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00127, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00267, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00267, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00267, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (0.7%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00267, P:3, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00267, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00140, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00166, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00166, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00166, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00166, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00294, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00294, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00294, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00294, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00112, P:2, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (3.9%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00220, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00220, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00220, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (4.2%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00150, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00150, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00048, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00048, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00048, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00048, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00048, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00264, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00264, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00264, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00264, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00190, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00190, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00190, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00190, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00190, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00230, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00230, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00230, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00230, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00230, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00057, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00057, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00057, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00057, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00310, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00310, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00310, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00310, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00126, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00126, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00126, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00126, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00185, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00185, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00185, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00185, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00185, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00100, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00100, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00100, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00100, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00277, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00277, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00277, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00287, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00287, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00287, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00287, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00287, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00244, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00244, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00244, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00244, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00203, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00203, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00203, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00203, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00089, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00089, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00089, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00089, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00135, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00135, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00135, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00124, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00124, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00124, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00079, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00079, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00079, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00079, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00079, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00137, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00137, P:2, Motivos: Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00137, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00137, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00137, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00060, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00060, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00060, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00060, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00312, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00312, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00312, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00312, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00088, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00088, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00088, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00034, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00034, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00034, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00191, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00191, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00191, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00326, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00326, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00326, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00326, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00326, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00053, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00053, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00053, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00053, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00194, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00023, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00023, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00249, P:3, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00249, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00249, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00249, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00249, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00213, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00213, P:1, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (1.5%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00213, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00263, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00283, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00283, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00170, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00170, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00175, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00175, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00175, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00090, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00090, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00090, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00090, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00090, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00157, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00157, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00157, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00233, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00285, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00149, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00149, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00149, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00149, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00149, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00291, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00291, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00232, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00232, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00232, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00232, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00232, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00258, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00258, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00224, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00224, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00224, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00238, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00238, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00238, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00033, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00033, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00033, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00144, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00144, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00144, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00144, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (2.1%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00091, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00217, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00242, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00153, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00153, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00153, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00153, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00153, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00119, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00119, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00119, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00119, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00119, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00239, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00239, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00239, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00301, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00301, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00243, P:1, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00243, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00094, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00094, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00094, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00073, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00073, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00073, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00073, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00073, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00227, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00227, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00227, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00227, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00006, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00006, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00006, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00006, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00006, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00188, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00188, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00188, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00188, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00284, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00284, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00068, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00068, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00068, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00116, P:1, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (3.5%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00116, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00116, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00116, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00257, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00257, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00257, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00257, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00257, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00279, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00279, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00279, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00279, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00169, P:0, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00169, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00169, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00205, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00205, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00205, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00205, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00205, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00136, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00330, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00330, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00330, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00330, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00330, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00174, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00174, P:1, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (2.9%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00174, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00174, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00174, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00317, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00317, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00317, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00317, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00180, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00180, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00180, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00296, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00296, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00296, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00128, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00128, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00128, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00128, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00184, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00184, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00184, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00056, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00056, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00030, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00030, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00030, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00325, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00334, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00334, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00334, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00334, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00334, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00221, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00221, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00221, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00221, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00221, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00004, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00004, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00004, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00004, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00335, P:4, Motivos: Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00335, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00335, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00172, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00172, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00172, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00172, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00172, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00109, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00109, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00109, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00109, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00171, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00171, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00171, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00171, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00147, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00147, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00147, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00292, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00292, P:1, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00292, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00138, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00138, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00138, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00138, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00138, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00269, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00269, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00269, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00269, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00269, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00282, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00199, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00199, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00199, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00199, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00303, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00303, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00071, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00071, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00071, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00071, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00071, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00058, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00058, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00058, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00058, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00342, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00342, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00342, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00259, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00259, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00259, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00309, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00309, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00309, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00309, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00309, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00318, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00318, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00318, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00253, P:0, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (3.1%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00253, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00253, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00024, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00307, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00307, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00307, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00307, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00307, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00148, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00148, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00148, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00148, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00148, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00043, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00043, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00186, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00186, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00186, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00186, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00186, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00229, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00229, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00229, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (3.8%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00229, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00229, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00003, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00003, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00003, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00003, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00003, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00151, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00151, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00151, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00168, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00168, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00168, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00168, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00323, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00323, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00323, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00323, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00179, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00179, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00160, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00160, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00160, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00160, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00160, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00078, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00078, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00298, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00298, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00051, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00051, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00051, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00051, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00107, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00107, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00107, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00107, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00107, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00104, P:0, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00104, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00104, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00104, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00104, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00039, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00039, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00008, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00008, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00008, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00008, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00063, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00063, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00063, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00063, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00200, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00200, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00200, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00289, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00289, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00289, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00289, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00337, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00337, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00337, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00337, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00341, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00341, P:1, Motivos: Reach_Ratio_Low (3.0%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00332, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00332, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00332, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00332, P:3, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00139, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00139, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00139, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00142, P:1, Motivos: Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00142, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00142, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00142, P:2, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (1.5%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00142, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00256, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00256, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00256, P:4, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00256, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00256, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00103, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00103, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00103, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00103, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00103, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00164, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00164, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00164, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00164, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00164, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00322, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00322, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00322, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00322, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00123, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00123, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00123, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00123, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00123, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00214, P:3, Motivos: Avg_Conc_Low (0.00); Reach_Ratio_Low (3.3%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00066, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00295, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00295, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00295, P:2, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00295, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00295, P:3, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00329, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00329, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00329, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00074, P:3, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00074, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00074, P:1, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00074, P:0, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00074, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00163, P:2, Motivos: GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00163, P:4, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00163, P:1, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00163, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00163, P:3, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00236, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00236, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00155, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00155, P:0, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); Reach_Ratio_Low (1.5%); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00155, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00155, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02)
+DESCARTADO - S:sample_00146, P:2, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.01)
+DESCARTADO - S:sample_00146, P:1, Motivos: Avg_Conc_Low (0.00); Max_Conc_Low (0.02); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00146, P:4, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00146, P:0, Motivos: Avg_Conc_Low (0.00); GT_Peak_Not_Reachable
+DESCARTADO - S:sample_00070, P:4, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00070, P:2, Motivos: Avg_Conc_Low (0.00)
+DESCARTADO - S:sample_00070, P:0, Motivos: Avg_Conc_Low (0.00)

@@ -24,29 +24,29 @@ except ImportError:
         return iterable
 
 # Parámetros de generación del dataset
-NUM_SAMPLES = 500
-ROI_WIDTH_PX = 128
-ROI_HEIGHT_PX = 128
+NUM_SAMPLES = 5
+ROI_WIDTH_PX = 256
+ROI_HEIGHT_PX = 256
 MIN_FREE_SPACE_RATIO = 0.3
 
 # Parámetros Simulación Difusión 
-SIM_TIMESTEPS = 2000000   
+SIM_TIMESTEPS = 1500000  
 SIM_DIFF_RATE = 0.0005      
 SIM_DISS_RATE = 0.0         
-SIM_SRC_STR = 5000.0
+SIM_SRC_STR = 1000.0
 
 # Parámetros Simulación Robot 
 PATH_ALGORITHM = "epsilon_greedy"
 EPSILON = 0.4
 MAX_PATH_STEPS = 50
 SENSOR_NOISE_STD_DEV = 0.01
-MIN_START_DISTANCE_FROM_SOURCE_PX = 100
+MIN_START_DISTANCE_FROM_SOURCE_PX = 75
 NUM_PATHS_PER_SAMPLE = 5
 
 MAP_NAME = "demo"
 MAPS_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/maps")
 
-OUTPUT_PARENT_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/gan_dataset-epsilon_greedy")
+OUTPUT_PARENT_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/gan_dataset-epsilon_greedy_demo")
 OUTPUT_GT_DIR = os.path.join(OUTPUT_PARENT_DIR, "ground_truth") 
 OUTPUT_OBSTACLES_DIR = os.path.join(OUTPUT_PARENT_DIR, "obstacle_maps")
 OUTPUT_PATHS_DIR = os.path.join(OUTPUT_PARENT_DIR, "robot_paths")
@@ -157,48 +157,82 @@ def generate_robot_path(
 # Función de Utilidad: Visualización de Mapa
 # ==============================================
 
-def visualize_combined(gt_map, obstacle_map, robot_path_df, source_coords_px,   
-                        resolution, output_path, title=""):   
+def visualize_combined(gt_map, obstacle_map, robot_path_df, source_coords_px,
+                        resolution, output_path, title=""):
     try:
         height, width = gt_map.shape
         plt.style.use('default')
-        fig, ax = plt.subplots(figsize=(10, 10 * height / width))
+        fig, ax = plt.subplots(figsize=(10, 10.5 * height / width)) 
         ax.set_facecolor('white')
         plot_extent = [0, width * resolution, 0, height * resolution]
-        im_gt = ax.imshow(gt_map, cmap='viridis', origin='lower', vmin=0, vmax=1, extent=plot_extent, interpolation='nearest', alpha=0.8)
+        
+        # Dibujar mapa de ground truth
+        im_gt = ax.imshow(gt_map, cmap='viridis', origin='lower', vmin=0, vmax=1, 
+                          extent=plot_extent, interpolation='nearest', alpha=0.8)
+
+        # Dibujar obstáculos
         obstacle_rgba = np.zeros((height, width, 4), dtype=np.float32)
-        obstacle_color = [0.0, 0.0, 0.0]
+        obstacle_color = [0.0, 0.0, 0.0] # Negro
         obstacle_alpha = 0.7
         obstacle_rgba[obstacle_map, :3] = obstacle_color
         obstacle_rgba[obstacle_map, 3] = obstacle_alpha
-        ax.imshow(obstacle_rgba, origin='lower', vmin=0, vmax=1, extent=plot_extent, interpolation='nearest', zorder=2)
+        ax.imshow(obstacle_rgba, origin='lower', vmin=0, vmax=1, 
+                  extent=plot_extent, interpolation='nearest', zorder=2)
 
         if robot_path_df is not None and not robot_path_df.empty:
             path_x, path_y, path_c = robot_path_df['pos_x_m'].values, robot_path_df['pos_y_m'].values, robot_path_df['concentration'].values
             cmap_path, norm_path = 'plasma', mcolors.Normalize(vmin=0, vmax=1)
+            
             ax.plot(path_x, path_y, color='white', linestyle='-', linewidth=1.5, alpha=0.6, zorder=3)
-            sc_path = ax.scatter(path_x, path_y, c=path_c, cmap=cmap_path, norm=norm_path, s=15, edgecolors='black', linewidths=0.3, label='Trayectoria (Lectura)', zorder=4)
-            cbar_path = fig.colorbar(sc_path, ax=ax, label='Lectura Norm.', shrink=0.6, aspect=25, pad=0.06); cbar_path.ax.tick_params(labelsize=8)
-            ax.scatter(path_x[0], path_y[0], marker='o', color='lime', s=90, edgecolors='black', label='Inicio', zorder=5)
-            ax.scatter(path_x[-1], path_y[-1], marker='s', color='orange', s=90, edgecolors='black', label='Fin', zorder=5)
+            
+            sc_path = ax.scatter(path_x, path_y, c=path_c, cmap=cmap_path, norm=norm_path, s=15, 
+                                 edgecolors='black', linewidths=0.3, 
+                                 label='Trayectoria (Lectura)', # Etiqueta para la leyenda principal
+                                 zorder=4)
+            
+            cbar_path = fig.colorbar(sc_path, ax=ax, label='Lectura Norm.', 
+                                     orientation='horizontal', 
+                                     shrink=0.6, 
+                                     aspect=25,
+                                     pad=0.12,
+                                     location='bottom') 
+            cbar_path.ax.tick_params(labelsize=7)
+            cbar_path.set_label('Lectura Norm.', fontsize=8)
 
+            # Puntos de inicio y fin
+            ax.scatter(path_x[0], path_y[0], marker='o', color='lime', s=90, edgecolors='black', 
+                       label='Inicio', zorder=5)
+            ax.scatter(path_x[-1], path_y[-1], marker='s', color='orange', s=90, edgecolors='black', 
+                       label='Fin', zorder=5)
+
+        # Foco GT
         src_i, src_j = source_coords_px
         source_x_m, source_y_m = src_j * resolution + resolution / 2, src_i * resolution + resolution / 2
-        ax.scatter(source_x_m, source_y_m, marker='X', color='red', s=180, edgecolors='white', linewidths=1.5, label='Foco GT', zorder=6)
+        ax.scatter(source_x_m, source_y_m, marker='X', color='red', s=180, edgecolors='white', 
+                   linewidths=1.5, label='Foco GT', zorder=6)
+        
         ax.set_title(title, fontsize=10)
         ax.set_xlabel("X (m)", fontsize=9)
         ax.set_ylabel("Y (m)", fontsize=9)
-        ax.legend(fontsize=8, loc='upper left', bbox_to_anchor=(1.03, 1.0), borderaxespad=0.)
-        plt.subplots_adjust(right=0.78)
+
+        # Leyenda principal a la derecha
+        ax.legend(fontsize=8, 
+                  loc='upper left', 
+                  bbox_to_anchor=(1.03, 1.0),
+                  borderaxespad=0.)
+        
+        plt.subplots_adjust(right=0.80, bottom=0.20)
+
         ax.grid(True, linestyle=':', linewidth=0.5, color='gray', alpha=0.5)
         ax.set_xlim(0, width * resolution)
         ax.set_ylim(0, height * resolution)
         ax.tick_params(axis='both', which='major', labelsize=8)
         ax.set_aspect('equal', adjustable='box')
-        plt.subplots_adjust(right=0.80)
+        
         plt.savefig(output_path, bbox_inches='tight', dpi=150)
         plt.close(fig)
-    except Exception as e: print(f"ERROR: Fallo al crear visualización '{output_path}': {e}", file=sys.stderr)
+    except Exception as e: 
+        print(f"ERROR: Fallo al crear visualización '{output_path}': {e}", file=sys.stderr)
 
 # ==============================================================================
 # SCRIPT PRINCIPAL DE GENERACIÓN DEL DATASET
@@ -448,5 +482,5 @@ if __name__ == "__main__":
     print(f"Archivos Obstáculos en: {OUTPUT_OBSTACLES_DIR}")
     print(f"Archivos Trayectoria en: {OUTPUT_PATHS_DIR}")
     if SAVE_VISUALIZATIONS: print(f"Visualizaciones en: {OUTPUT_VIS_DIR}")
-    if samples_generated > 0 and metadata_list: print(f"Metadatos en: {METADATA_FILE}")
+    if sample_map_generated > 0 and metadata_list: print(f"Metadatos en: {METADATA_FILE}")
     print(" Generación Finalizada")
