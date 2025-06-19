@@ -17,9 +17,9 @@ from models import UNetGenerator, PatchDiscriminator, weights_init_normal
 # --- 1. CONFIGURACIÓN ---
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 PROJECT_ROOT = os.path.expanduser("~/uni/master/tfm/TFM") 
-METADATA_BASE_DIR = os.path.join(PROJECT_ROOT, "data", "metadata")
-PREPROCESSED_BASE_DIR = os.path.join(PROJECT_ROOT, "data", "processed_for_model")
-OUTPUT_RUN_NAME = "gan_training_run_1"
+METADATA_BASE_DIR = os.path.join(PROJECT_ROOT, "data", "metadata/augmented_cleaned")
+PREPROCESSED_BASE_DIR = os.path.join(PROJECT_ROOT, "data", "processed_for_model_augmented")
+OUTPUT_RUN_NAME = "gan_training_run_3"
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "models_outputs", OUTPUT_RUN_NAME)
 CHECKPOINT_DIR = os.path.join(OUTPUT_DIR, "checkpoints")
 SAMPLE_DIR = os.path.join(OUTPUT_DIR, "samples")
@@ -33,19 +33,19 @@ os.makedirs(LOG_DIR, exist_ok=True)
 IMG_RESOLUTION = 256 
 CONDITION_CHANNELS = 3
 TARGET_CHANNELS = 1
-GEN_FEATURES = 32    
+GEN_FEATURES = 64    
 DISC_FEATURES = 64
 
 # Entrenamiento
-LEARNING_RATE_G = 2e-4
-LEARNING_RATE_D = 2e-4
+LEARNING_RATE_G = 1e-3
+LEARNING_RATE_D = 1e-3
 BETA1 = 0.5
 BETA2 = 0.999
 NUM_EPOCHS = 200     
 BATCH_SIZE = 4       
-LAMBDA_L1 = 100.0    
+LAMBDA_L1 = 75.0    
 AUG_H_FLIP_PROB_TRAIN = 0.5
-AUG_V_FLIP_PROB_TRAIN = 0.0 
+AUG_V_FLIP_PROB_TRAIN = 0.5 
 EARLY_STOPPING_PATIENCE = 20
 SAVE_SAMPLE_EVERY_N_EPOCHS = 5
 SAVE_CHECKPOINT_EVERY_N_EPOCHS = 25

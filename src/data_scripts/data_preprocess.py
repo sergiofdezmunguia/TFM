@@ -7,20 +7,20 @@ import cv2
 from tqdm import tqdm
 
 # --- CONFIGURACIÓN DE RUTAS Y PARÁMETROS ---
-CLEANED_METADATA_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/metadata")
+CLEANED_METADATA_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/metadata/augmented_cleaned")
 CLEANED_METADATA_CSV = os.path.join(CLEANED_METADATA_DIR, "cleaned_metadata.csv")
 TRAIN_IDS_JSON = os.path.join(CLEANED_METADATA_DIR, "train_sample_ids.json")
 VAL_IDS_JSON = os.path.join(CLEANED_METADATA_DIR, "val_sample_ids.json")
 TEST_IDS_JSON = os.path.join(CLEANED_METADATA_DIR, "test_sample_ids.json")
 
 # Directorio de los datos en bruto
-RAW_DATA_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/gan_dataset-epsilon_greedy")
+RAW_DATA_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/gan_dataset_augmented")
 OBSTACLES_SUBDIR = "obstacle_maps"
 PATHS_SUBDIR = "robot_paths"
 GT_SUBDIR = "ground_truth"
 
 # Directorio de salida para los datos preprocesados
-PREPROCESSED_DATA_OUTPUT_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/processed_for_model")
+PREPROCESSED_DATA_OUTPUT_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/processed_for_model_augmented")
 
 # Parámetros de preprocesamiento
 IMG_HEIGHT = 256
@@ -141,7 +141,7 @@ def main():
     print(f"Datos preprocesados guardados en: {PREPROCESSED_DATA_OUTPUT_DIR}")
 
 if __name__ == "__main__":
-    if not os.path.exists(CLEANED_METADATA_CSV): # ... (verificaciones como antes) ...
+    if not os.path.exists(CLEANED_METADATA_CSV):
         print(f"ERROR FATAL: El archivo '{CLEANED_METADATA_CSV}' no existe.")
         sys.exit(1)
     if not os.path.isdir(RAW_DATA_DIR):

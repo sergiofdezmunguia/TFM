@@ -5,7 +5,7 @@ import os
 import random
 import time
 import math
-from diffusion_generator import generate_diffusion_map_roi, get_occupied_pgm_threshold, get_free_pgm_threshold, DEFAULT_FREE_THRESH_PROB, DEFAULT_OCCUPIED_THRESH_PROB
+from TFM.src.data_scripts.diffusion_generator import generate_diffusion_map_roi, get_occupied_pgm_threshold, get_free_pgm_threshold, DEFAULT_FREE_THRESH_PROB, DEFAULT_OCCUPIED_THRESH_PROB
 
 # Parámetros de Prueba
 ROI_WIDTH_PX = 256          

@@ -2,3 +2,7 @@
 __pycache__
 data/
 *.pth
+*.log
+.ipynb_checkpoints
+*.png
+models_outputs

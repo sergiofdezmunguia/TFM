@@ -43,9 +43,10 @@ class GasDiffusionDataset(Dataset):
 
         row = self.metadata_df.iloc[idx]
         sample_id = row['sample_id']
-        path_num = int(row['path_number'])
-        
-        unique_file_id = f"{sample_id}_path_{path_num}"
+        # path_num = int(row['path_number'])
+        path_identifier_str = str(row['path_number'])
+
+        unique_file_id = f"{sample_id}_path_{path_identifier_str}"
         
         input_X_path = os.path.join(self.input_dir_X, f"{unique_file_id}_input.npy")
         output_Y_path = os.path.join(self.target_dir_Y, f"{unique_file_id}_target.npy")

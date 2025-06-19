@@ -9,7 +9,7 @@ import sys
 import math
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-from diffusion_generator import (generate_diffusion_map_roi,
+from TFM.src.data_scripts.diffusion_generator import (generate_diffusion_map_roi,
                                  get_occupied_pgm_threshold,
                                  get_free_pgm_threshold,
                                  DEFAULT_FREE_THRESH_PROB,
