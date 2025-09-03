@@ -83,8 +83,8 @@ python train.py --dataset ../../data/processed_for_model --epochs 200
 
 | Configuration | IoU Mean | PSNR | SSIM |
 |---------------|----------|------|------|
-| Without Wind  | 0.847    | 23.45| 0.891|
-| With Wind     | 0.823    | 22.18| 0.876|
+| Without Wind  | 0.564    | 21.69| 0.836|
+| With Wind     | 0.358    | 17.03| 0.741|
 
 ## Documentation
 
