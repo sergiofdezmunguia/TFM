@@ -7,9 +7,9 @@ from tqdm import tqdm
 import collections
 
 # --- CONFIGURACIÓN DE DIRECTORIOS Y ARCHIVOS ---
-OUTPUT_PARENT_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/gan_dataset_augmented") 
+OUTPUT_PARENT_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/gan_dataset_wind") 
 METADATA_FILE = os.path.join(OUTPUT_PARENT_DIR, "metadata.csv")
-CLEANED_DATA_METADATA_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/metadata/augmented_cleaned")
+CLEANED_DATA_METADATA_DIR = os.path.expanduser("~/uni/master/tfm/TFM/data/metadata/wind_cleaned")
 os.makedirs(CLEANED_DATA_METADATA_DIR, exist_ok=True)
 CLEANING_LOG_FILE = os.path.join(CLEANED_DATA_METADATA_DIR, "simplified_cleaning_log.txt")
 

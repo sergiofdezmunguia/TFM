@@ -3,79 +3,68 @@ from torch.utils.data import Dataset
 import numpy as np
 import os
 import random
+import pandas as pd
 
 class GasDiffusionDataset(Dataset):
-    def __init__(self, metadata_df, input_dir_X, target_dir_Y, 
-                 apply_augmentation=True, aug_h_flip_prob=0.4, aug_v_flip_prob=0.4):
-        """
-        Dataset personalizado para cargar mapas de difusión de gas y aplicar augmentation.
-
-        Args:
-            metadata_df (pd.DataFrame): DataFrame filtrado (ej. train_df) con la metadata.
-            input_dir_X (str): Directorio de los archivos _input.npy (HxWx3).
-            target_dir_Y (str): Directorio de los archivos _target.npy (HxWx1).
-            apply_augmentation (bool): Flag general para activar/desactivar augmentation.
-            aug_h_flip_prob (float): Probabilidad de aplicar flip horizontal (0.0 a 1.0).
-            aug_v_flip_prob (float): Probabilidad de aplicar flip vertical (0.0 a 1.0).
-        """
+    def __init__(self, metadata_df, input_dir_X, target_dir_Y, original_paths_csv_dir,
+                 apply_augmentation=True, h_flip_prob=0.5, v_flip_prob=0.5):
         self.metadata_df = metadata_df.reset_index(drop=True)
         self.input_dir_X = input_dir_X
         self.target_dir_Y = target_dir_Y
-        
+        self.original_paths_csv_dir = original_paths_csv_dir
         self.apply_augmentation = apply_augmentation
-        self.h_flip_prob = aug_h_flip_prob if apply_augmentation else 0.0
-        self.v_flip_prob = aug_v_flip_prob if apply_augmentation else 0.0
-
-        if not (0.0 <= self.h_flip_prob <= 1.0 and 0.0 <= self.v_flip_prob <= 1.0):
-            raise ValueError("Las probabilidades de flip deben estar entre 0.0 y 1.0")
+        self.h_flip_prob = h_flip_prob if apply_augmentation else 0.0
+        self.v_flip_prob = v_flip_prob if apply_augmentation else 0.0
 
     def __len__(self):
-        """Devuelve el número total de muestras en el dataset."""
         return len(self.metadata_df)
 
     def __getitem__(self, idx):
-        """
-        Carga y devuelve una muestra del dataset en el índice `idx`.
-        Aplica augmentation si está configurado.
-        """
         if torch.is_tensor(idx): 
             idx = idx.tolist()
 
-        row = self.metadata_df.iloc[idx]
-        sample_id = row['sample_id']
-        # path_num = int(row['path_number'])
-        path_identifier_str = str(row['path_number'])
-
-        unique_file_id = f"{sample_id}_path_{path_identifier_str}"
-        
-        input_X_path = os.path.join(self.input_dir_X, f"{unique_file_id}_input.npy")
-        output_Y_path = os.path.join(self.target_dir_Y, f"{unique_file_id}_target.npy")
-
         try:
+            row = self.metadata_df.iloc[idx]
+            sample_id = str(row['sample_id']).strip()
+            path_id = str(row['path_number']).strip()
+            robot_path_csv_filename = str(row['robot_path_file']).strip()
+            
+            base_filename = f"{sample_id}_path_{path_id}"
+            input_X_path = os.path.join(self.input_dir_X, f"{base_filename}_input.npy")
+            output_Y_path = os.path.join(self.target_dir_Y, f"{base_filename}_target.npy")
+
             input_X_np = np.load(input_X_path).astype(np.float32)
             output_Y_np = np.load(output_Y_path).astype(np.float32)
+
+            # --- Carga de coordenadas de la ruta (lógica necesaria) ---
+            robot_path_coords_px = []
+            path_csv_full_path = os.path.join(self.original_paths_csv_dir, robot_path_csv_filename)
+            if os.path.exists(path_csv_full_path):
+                path_df = pd.read_csv(path_csv_full_path)
+                if 'pos_j' in path_df.columns and 'pos_i' in path_df.columns:
+                    coords = zip(path_df['pos_j'].values, path_df['pos_i'].values)
+                    # Asegurarse de que las coordenadas son válidas antes de convertir a int
+                    robot_path_coords_px = [(int(x), int(y)) for x, y in coords if not (np.isnan(x) or np.isnan(y))]
+            
+            # --- Lógica de aumentación que también afecta a las coordenadas ---
+            img_h, img_w = input_X_np.shape[0], input_X_np.shape[1]
+            if self.apply_augmentation:
+                if random.random() < self.h_flip_prob:
+                    input_X_np = np.ascontiguousarray(np.fliplr(input_X_np))
+                    output_Y_np = np.ascontiguousarray(np.fliplr(output_Y_np))
+                    if robot_path_coords_px: robot_path_coords_px = [(img_w - 1 - x, y) for x, y in robot_path_coords_px]
+                if random.random() < self.v_flip_prob:
+                    input_X_np = np.ascontiguousarray(np.flipud(input_X_np))
+                    output_Y_np = np.ascontiguousarray(np.flipud(output_Y_np))
+                    if robot_path_coords_px: robot_path_coords_px = [(x, img_h - 1 - y) for x, y in robot_path_coords_px]
+            
+            input_X_tensor = torch.from_numpy(input_X_np.transpose((2, 0, 1)))
+            output_Y_tensor = torch.from_numpy(output_Y_np.transpose((2, 0, 1)))
+            
+            # --- Devolver los 5 elementos que train.py espera ---
+            return input_X_tensor, output_Y_tensor, robot_path_coords_px, sample_id, path_id
+        
         except Exception as e:
-            print(f"ERROR CRÍTICO cargando datos para {unique_file_id} (índice {idx}): {e}")
-
-            if idx == 0:
-                raise RuntimeError(f"Fallo al cargar la muestra inicial 0 ({unique_file_id}): {e}") from e
-            print(f"ADVERTENCIA: Fallo al cargar muestra {idx}. Intentando cargar la muestra 0 en su lugar.")
-            return self.__getitem__(0)
-
-        # Data Augmentation
-        if self.apply_augmentation:
-            # Flip Horizontal Aleatorio
-            if random.random() < self.h_flip_prob:
-                input_X_np = np.ascontiguousarray(np.fliplr(input_X_np))
-                output_Y_np = np.ascontiguousarray(np.fliplr(output_Y_np))
-
-            # Flip Vertical Aleatorio
-            if random.random() < self.v_flip_prob:
-                input_X_np = np.ascontiguousarray(np.flipud(input_X_np))
-                output_Y_np = np.ascontiguousarray(np.flipud(output_Y_np))
-
-        # Convertir NumPy arrays HWC a Tensores PyTorch CHW 
-        input_X_tensor = torch.from_numpy(input_X_np.transpose((2, 0, 1)))
-        output_Y_tensor = torch.from_numpy(output_Y_np.transpose((2, 0, 1)))
-
-        return input_X_tensor, output_Y_tensor
+            # Si algo falla, devuelve None para que collate_fn lo salte
+            print(f"ADVERTENCIA: Saltando muestra en el índice {idx} por error: {e}")
+            return None

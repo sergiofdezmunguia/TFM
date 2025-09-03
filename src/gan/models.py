@@ -12,7 +12,7 @@ def weights_init_normal(m):
         nn.init.constant_(m.bias.data, 0.0)
 
 class UNetGenerator(nn.Module):
-    def __init__(self, in_channels=3, out_channels=1, features=32):
+    def __init__(self, in_channels=5, out_channels=1, features=32):
         super(UNetGenerator, self).__init__()
 
         # --- Encoder ---
@@ -97,7 +97,7 @@ class UNetGenerator(nn.Module):
         return out
 
 class PatchDiscriminator(nn.Module):
-    def __init__(self, in_channels_condition=3, in_channels_target=1, features=64):
+    def __init__(self, in_channels_condition=5, in_channels_target=1, features=64):
         super(PatchDiscriminator, self).__init__()
         total_in_channels = in_channels_condition + in_channels_target
 

@@ -1,225 +1,183 @@
 import torch
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, default_collate
 import pandas as pd
 import numpy as np
 import json
 import os
+import sys
 from tqdm import tqdm
 from skimage.metrics import peak_signal_noise_ratio, structural_similarity
 import matplotlib.pyplot as plt
-from torchvision.utils import save_image # O usar matplotlib para guardar
+import cv2
+import argparse
 
-# Importar tus módulos
+# Asumiendo que dataset.py y models.py están accesibles
 from dataset import GasDiffusionDataset
 from models import UNetGenerator
 
-# --- 1. CONFIGURACIÓN ---
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Usando dispositivo: {DEVICE}")
+# --- FUNCIÓN COLLATE (CRUCIAL PARA MANEJAR ERRORES DE CARGA) ---
+def collate_fn_skip_none(batch):
+    batch = list(filter(lambda x: x is not None, batch))
+    if not batch: return None
+    return default_collate(batch)
 
-PROJECT_ROOT = os.path.expanduser("~/uni/master/tfm/TFM") 
-METADATA_BASE_DIR = os.path.join(PROJECT_ROOT, "data", "metadata", "augmented_cleaned")
-PREPROCESSED_BASE_DIR = os.path.join(PROJECT_ROOT, "data", "processed_for_model_augmented") 
-
-# Directorio de la ejecución de entrenamiento de donde cargar el modelo
-TRAINING_RUN_NAME = "gan_training_run_3"
-MODEL_CHECKPOINT_DIR = os.path.join(PROJECT_ROOT, "models_outputs", TRAINING_RUN_NAME, "checkpoints")
-BEST_MODEL_PATH = os.path.join(MODEL_CHECKPOINT_DIR, "best_model.pth")
-
-# Directorio de salida para la evaluación
-EVALUATION_OUTPUT_DIR = os.path.join(PROJECT_ROOT, "models_outputs", TRAINING_RUN_NAME, "evaluation_on_test")
-EVAL_IMAGES_DIR = os.path.join(EVALUATION_OUTPUT_DIR, "sample_images")
-EVAL_RESULTS_FILE = os.path.join(EVALUATION_OUTPUT_DIR, "test_metrics_results.txt")
-
-os.makedirs(EVALUATION_OUTPUT_DIR, exist_ok=True)
-os.makedirs(EVAL_IMAGES_DIR, exist_ok=True)
-
-# Hiperparámetros del modelo
-CONDITION_CHANNELS = 3
-TARGET_CHANNELS = 1
-GEN_FEATURES = 64
-IMG_RESOLUTION = 256
-
-# Parámetros de evaluación
-BATCH_SIZE_EVAL = 4 
-NUM_SAMPLES_TO_VISUALIZE = 20
-IOU_THRESHOLD = 0.25
-
-# --- Funciones Auxiliares de Métricas ---
-def calculate_mae(generated, target):
-    return np.mean(np.abs(generated - target))
-
-def calculate_mse(generated, target):
-    return np.mean((generated - target)**2)
-
-def calculate_psnr(generated, target, data_range=1.0):
-    generated_clipped = np.clip(generated, 0, 1)
-    target_clipped = np.clip(target, 0, 1)
-    return peak_signal_noise_ratio(target_clipped, generated_clipped, data_range=data_range)
-
-def calculate_ssim(generated, target, data_range=1.0, win_size=7):
-    generated_squeezed = generated.squeeze(axis=-1) if generated.ndim == 3 and generated.shape[-1] == 1 else generated
-    target_squeezed = target.squeeze(axis=-1) if target.ndim == 3 and target.shape[-1] == 1 else target
-
-    actual_win_size = min(win_size, generated_squeezed.shape[0], generated_squeezed.shape[1])
-    if actual_win_size % 2 == 0:
-        actual_win_size -= 1
-    if actual_win_size < 3:
-        print(f"ADVERTENCIA: Tamaño de ventana para SSIM ({actual_win_size}) es muy pequeño. SSIM podría no ser significativo.")
+# --- Funciones de Métricas ---
+def calculate_mae(gen,tgt): 
+    return np.mean(np.abs(gen-tgt))
+def calculate_mse(gen,tgt): 
+    return np.mean((gen-tgt)**2)
+def calculate_psnr(gen,tgt,dr=1.0): 
+    gen_c,tgt_c=np.clip(gen,0,1),np.clip(tgt,0,1)
+    return peak_signal_noise_ratio(tgt_c,gen_c,data_range=dr)
+def calculate_ssim(gen,tgt,dr=1.0,ws=7):
+    g_sq,t_sq=(x.squeeze()if x.ndim==3 and x.shape[-1]==1 else x for x in(gen,tgt))
+    aw=min(ws,g_sq.shape[0],g_sq.shape[1])
+    aw=aw-1 if aw%2==0 else aw
+    if aw < 3: 
         return np.nan
-
-    return structural_similarity(target_squeezed, generated_squeezed, data_range=data_range, win_size=actual_win_size, channel_axis=None) # channel_axis=None si es monocanal
-
-def get_peak_coords(image_map):
-    if image_map.ndim == 3 and image_map.shape[-1] == 1:
-        image_map = image_map.squeeze(axis=-1)
-    if image_map.size == 0: return (np.nan, np.nan)
-    coords = np.unravel_index(np.argmax(image_map, axis=None), image_map.shape)
-    return (coords[0], coords[1])
-
-def calculate_peak_distance(peak_coords_gt, peak_coords_gen):
-    if any(np.isnan(c) for c in peak_coords_gt) or any(np.isnan(c) for c in peak_coords_gen):
+    return structural_similarity(t_sq,g_sq,data_range=dr,win_size=aw,channel_axis=None)
+def get_peak_coords(m):
+    m_sq=m.squeeze()if m.ndim==3 and m.shape[-1]==1 else m
+    if m_sq.size==0: 
+        return (np.nan, np.nan)
+    return np.unravel_index(np.argmax(m_sq),m_sq.shape)
+def calculate_peak_distance(pg,pp):
+    if any(np.isnan(c) for c_list in(pg,pp) for c in c_list): 
         return np.nan
-    return np.sqrt((peak_coords_gt[0] - peak_coords_gen[0])**2 + (peak_coords_gt[1] - peak_coords_gen[1])**2)
+    return np.sqrt(sum((gc-pc)**2 for gc,pc in zip(pg,pp)))
+def calculate_peak_intensity_error(vg,vp): return np.abs(vg-vp)
+def calculate_iou(mg,mp):
+    i=np.logical_and(mg,mp); u=np.logical_or(mg,mp)
+    if np.sum(u)==0: return 1.0 if np.sum(i)==0 else 0.0
+    return np.sum(i)/np.sum(u)
 
-def calculate_peak_intensity_error(peak_val_gt, peak_val_gen):
-    return np.abs(peak_val_gt - peak_val_gen)
+def get_args_predict():
+    parser = argparse.ArgumentParser(description="Evaluación del modelo GAN.")
+    parser.add_argument("--project_root",type=str,default=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..')))
+    parser.add_argument("--models_base_dir",type=str,default=None, help="Directorio base donde se encuentran las corridas de entrenamiento.")
+    parser.add_argument("--training_run_name",type=str,required=True, help="Nombre de la corrida de entrenamiento a evaluar.")
+    parser.add_argument("--eval_run_suffix",type=str,default="eval")
+    parser.add_argument("--metadata_subdir",type=str,default="data/metadata/wind_cleaned")
+    parser.add_argument("--preprocessed_subdir",type=str,default="data/processed_for_model_wind")
+    parser.add_argument("--path_csv_dataset_name",type=str,default="data/gan_dataset_wind")
+    parser.add_argument("--condition_channels", type=int, default=3)
+    parser.add_argument("--target_channels", type=int, default=1)
+    parser.add_argument("--gen_features",type=int,default=64,help="Debe coincidir con el modelo cargado.")
+    parser.add_argument("--batch_size_eval",type=int,default=4)
+    parser.add_argument("--iou_threshold",type=float,default=0.25)
+    parser.add_argument("--num_samples_to_visualize",type=int,default=20)
+    parser.add_argument("--num_workers",type=int,default=2)
+    return parser.parse_args()
 
-def calculate_iou(mask_gt, mask_gen):
-    intersection = np.logical_and(mask_gt, mask_gen)
-    union = np.logical_or(mask_gt, mask_gen)
-    if np.sum(union) == 0:
-        return 1.0 if np.sum(intersection) == 0 else 0.0
-    return np.sum(intersection) / np.sum(union)
-
-# --- Función Principal de Evaluación ---
-def evaluate_model():
-    print(f"--- Iniciando Evaluación del Modelo en el Conjunto de Test ---")
-    print(f"Cargando modelo desde: {BEST_MODEL_PATH}")
-    print(f"Resultados se guardarán en: {EVALUATION_OUTPUT_DIR}")
-
-    # 1. Cargar Datos de Test
-    try:
-        cleaned_df = pd.read_csv(os.path.join(METADATA_BASE_DIR, "cleaned_metadata.csv"))
-        with open(os.path.join(METADATA_BASE_DIR, "test_sample_ids.json"), 'r') as f: test_ids = set(json.load(f))
-    except Exception as e: print(f"Error cargando archivos de metadatos de test: {e}"); exit()
-
-    test_df = cleaned_df[cleaned_df['sample_id'].isin(test_ids)]
-    if test_df.empty: print("No hay datos de test para evaluar."); exit()
-
-    test_input_dir_X = os.path.join(PREPROCESSED_BASE_DIR, "test", "inputs")
-    test_target_dir_Y = os.path.join(PREPROCESSED_BASE_DIR, "test", "targets")
-
-    test_dataset = GasDiffusionDataset(test_df, test_input_dir_X, test_target_dir_Y, apply_augmentation=False)
-    test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE_EVAL, shuffle=False, num_workers=2, pin_memory=True)
-    print(f"Dataset de Test: {len(test_dataset)} muestras, DataLoader: {len(test_loader)} batches")
-
-    # 2. Cargar Modelo Generador Entrenado
-    generator = UNetGenerator(CONDITION_CHANNELS, TARGET_CHANNELS, GEN_FEATURES).to(DEVICE)
-    if not os.path.exists(BEST_MODEL_PATH):
-        print(f"ERROR: No se encontró el archivo del modelo entrenado en {BEST_MODEL_PATH}"); exit()
+def evaluate_model_main(args):
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    checkpoint = torch.load(BEST_MODEL_PATH, map_location=DEVICE)
-    generator.load_state_dict(checkpoint['generator_state_dict'])
-    generator.eval() # ¡Muy importante poner en modo evaluación!
-    print(f"Modelo Generador cargado. Entrenado por {checkpoint.get('epoch', 'N/A')+1} épocas. Val L1: {checkpoint.get('val_loss_L1', 'N/A'):.4f}")
+    models_base = args.models_base_dir if args.models_base_dir is not None else os.path.join(args.project_root, "models_outputs")
+    MODEL_CHECKPOINT_DIR = os.path.join(models_base, args.training_run_name, "checkpoints")
+    BEST_MODEL_PATH = os.path.join(MODEL_CHECKPOINT_DIR, "best_model.pth")
+    EVALUATION_OUTPUT_DIR = os.path.join(models_base, args.training_run_name, f"evaluation_test_{args.eval_run_suffix}")
+    EVAL_IMAGES_DIR = os.path.join(EVALUATION_OUTPUT_DIR, "sample_images")
+    METRICS_JSON_PATH = os.path.join(EVALUATION_OUTPUT_DIR, "test_metrics_summary.json")
 
-    # 3. Listas para almacenar métricas de todas las muestras
-    all_mae, all_mse, all_psnr, all_ssim = [], [], [], []
-    all_peak_dist, all_peak_intensity_err, all_iou = [], [], []
+    os.makedirs(EVALUATION_OUTPUT_DIR, exist_ok=True); os.makedirs(EVAL_IMAGES_DIR, exist_ok=True)
+    print(f"--- Evaluando Modelo de '{args.training_run_name}' ---")
     
-    # 4. Bucle de Evaluación
-    print("\nEvaluando en el conjunto de test...")
-    samples_visualized_count = 0
+    METADATA_DIR = os.path.join(args.project_root,args.metadata_subdir)
+    PREPROCESSED_DIR = os.path.join(args.project_root,args.preprocessed_subdir)
+    PATHS_CSV_DIR = os.path.join(args.project_root,args.path_csv_dataset_name,"robot_paths")
+    
+    df=pd.read_csv(os.path.join(METADATA_DIR,"cleaned_metadata.csv"));
+    with open(os.path.join(METADATA_DIR,"test_sample_ids.json"),'r') as f:test_ids=set(json.load(f))
+    test_df = df[df['sample_id'].isin(test_ids)].reset_index(drop=True)
+    
+    test_dataset=GasDiffusionDataset(test_df, os.path.join(PREPROCESSED_DIR,"test","inputs"), os.path.join(PREPROCESSED_DIR,"test","targets"), PATHS_CSV_DIR, apply_augmentation=False)
+    test_loader=DataLoader(test_dataset, args.batch_size_eval, shuffle=False, num_workers=args.num_workers, pin_memory=True, collate_fn=collate_fn_skip_none)
+    print(f"Test samples: {len(test_df)}")
+    
+    if not os.path.exists(BEST_MODEL_PATH): print(f"ERROR: Modelo no encontrado {BEST_MODEL_PATH}"); return
+    
+    ckpt = torch.load(BEST_MODEL_PATH, map_location=DEVICE)
+    train_args = ckpt.get('args', {})
+    gen_feat_ckpt = train_args.get('gen_features', args.gen_features)
+    cond_channels_ckpt = train_args.get('condition_channels', args.condition_channels)
+    generator=UNetGenerator(cond_channels_ckpt, args.target_channels, gen_feat_ckpt).to(DEVICE)
+    generator.load_state_dict(ckpt['generator_state_dict']); generator.eval()
+    print(f"Modelo cargado. Epoch: {ckpt.get('epoch','N/A')+1}, ValL1: {ckpt.get('val_loss_L1','N/A'):.4f}, GenFeat: {gen_feat_ckpt}")
+
+    all_metrics = {k:[] for k in ["mae","mse","psnr","ssim","peak_dist","peak_int_err","iou"]}
+    
     with torch.no_grad():
-        for batch_idx, (real_X_batch, real_Y_batch) in enumerate(tqdm(test_loader, desc="Evaluando Test")):
-            real_X_batch = real_X_batch.to(DEVICE)
-
-            fake_Y_batch = generator(real_X_batch) # (B, 1, H, W)
-
-            real_X_np_batch = real_X_batch.cpu().numpy().transpose(0, 2, 3, 1) # (B, H, W, 3)
-            fake_Y_np_batch = fake_Y_batch.cpu().numpy().transpose(0, 2, 3, 1)   # (B, H, W, 1)
-            real_Y_np_batch = real_Y_batch.cpu().numpy().transpose(0, 2, 3, 1)   # (B, H, W, 1)
-
-            for i in range(real_X_np_batch.shape[0]):
-                real_X_sample = real_X_np_batch[i]     # (H, W, 3)
-                fake_Y_sample = fake_Y_np_batch[i]     # (H, W, 1)
-                real_Y_sample = real_Y_np_batch[i]     # (H, W, 1)
-
-                # Calcular métricas
-                all_mae.append(calculate_mae(fake_Y_sample, real_Y_sample))
-                all_mse.append(calculate_mse(fake_Y_sample, real_Y_sample))
-                all_psnr.append(calculate_psnr(fake_Y_sample, real_Y_sample))
-                ssim_val = calculate_ssim(fake_Y_sample, real_Y_sample)
-                if not np.isnan(ssim_val): all_ssim.append(ssim_val)
-
-
-                peak_coords_gt = get_peak_coords(real_Y_sample)
-                peak_coords_gen = get_peak_coords(fake_Y_sample)
-                all_peak_dist.append(calculate_peak_distance(peak_coords_gt, peak_coords_gen))
+        for batch_idx, batch in enumerate(tqdm(test_loader, desc="Evaluando Test")):
+            if batch is None: continue
+            
+            real_X_b, real_Y_b, paths_coords_b, s_ids_b, p_ids_b = batch
+            fake_Y_tensor = generator(real_X_b.to(DEVICE))
+            
+            current_batch_size = real_X_b.size(0)
+            for i in range(current_batch_size):
+                global_idx = batch_idx * args.batch_size_eval + i
+                if global_idx >= len(test_df): continue
                 
-                if not np.isnan(peak_coords_gt[0]) and not np.isnan(peak_coords_gen[0]):
-                    peak_val_gt = real_Y_sample[peak_coords_gt[0], peak_coords_gt[1], 0]
-                    peak_val_gen = fake_Y_sample[peak_coords_gen[0], peak_coords_gen[1], 0]
-                    all_peak_intensity_err.append(calculate_peak_intensity_error(peak_val_gt, peak_val_gen))
+                fy_np, ry_np = fake_Y_tensor[i,0].cpu().numpy(), real_Y_b[i,0].cpu().numpy()
+                
+                # --- CÁLCULO DE MÉTRICAS ---
+                all_metrics["mae"].append(calculate_mae(fy_np, ry_np))
+                all_metrics["mse"].append(calculate_mse(fy_np, ry_np))
+                all_metrics["psnr"].append(calculate_psnr(fy_np, ry_np))
+                ssim_val = calculate_ssim(fy_np, ry_np)
+                if not np.isnan(ssim_val): all_metrics["ssim"].append(ssim_val)
+                pgt,pgen=get_peak_coords(ry_np),get_peak_coords(fy_np)
+                all_metrics["peak_dist"].append(calculate_peak_distance(pgt,pgen))
+                if not np.any(np.isnan(pgt)) and not np.any(np.isnan(pgen)):
+                    all_metrics["peak_int_err"].append(calculate_peak_intensity_error(ry_np[pgt],fy_np[pgen]))
+                mask_gt,mask_gen=(ry_np > args.iou_threshold),(fy_np > args.iou_threshold)
+                all_metrics["iou"].append(calculate_iou(mask_gt,mask_gen))
 
-                mask_gt = real_Y_sample.squeeze() > IOU_THRESHOLD
-                mask_gen = fake_Y_sample.squeeze() > IOU_THRESHOLD
-                all_iou.append(calculate_iou(mask_gt, mask_gen))
-
-                # Guardar visualizaciones de algunas muestras
-                if samples_visualized_count < NUM_SAMPLES_TO_VISUALIZE:
-                    fig, axes = plt.subplots(1, 3, figsize=(15, 5))
-                    axes[0].imshow(real_X_sample[:,:,0], cmap='gray', vmin=0, vmax=1) 
-                    axes[0].set_title(f"Entrada (Obstáculos)\nSample: {test_df.iloc[batch_idx * BATCH_SIZE_EVAL + i]['sample_id']}_p{test_df.iloc[batch_idx * BATCH_SIZE_EVAL + i]['path_number']}")
-                    axes[0].axis('off')
-
-                    im_gen = axes[1].imshow(fake_Y_sample.squeeze(), cmap='viridis', vmin=0, vmax=1)
-                    axes[1].set_title("Heatmap Generado")
-                    axes[1].axis('off')
+                # --- VISUALIZACIÓN ---
+                if len(all_metrics["mae"]) <= args.num_samples_to_visualize:
+                    row = test_df.iloc[global_idx]
+                    s_id,p_id = str(row['sample_id']), str(row['path_number'])
                     
-                    im_real = axes[2].imshow(real_Y_sample.squeeze(), cmap='viridis', vmin=0, vmax=1)
-                    axes[2].set_title("Heatmap Ground Truth")
-                    axes[2].axis('off')
+                    path_coords = []
+                    if paths_coords_b and len(paths_coords_b) == 2 and paths_coords_b[0][i].numel() > 0:
+                        x_coords_sample, y_coords_sample = paths_coords_b[0][i].tolist(), paths_coords_b[1][i].tolist()
+                        path_coords = list(zip(x_coords_sample, y_coords_sample))
                     
-                    fig.colorbar(im_gen, ax=axes[1], fraction=0.046, pad=0.04)
-                    fig.colorbar(im_real, ax=axes[2], fraction=0.046, pad=0.04)
+                    rx_np_obs = real_X_b[i,0].cpu().numpy()
+                    fig,axs = plt.subplots(1,3,figsize=(18,6))
+                    fig.suptitle(f"Test: {s_id}_p{p_id}",fontsize=12)
                     
-                    plt.tight_layout()
-                    sample_filename = f"test_eval_sample_{batch_idx * BATCH_SIZE_EVAL + i}.png"
-                    plt.savefig(os.path.join(EVAL_IMAGES_DIR, sample_filename))
+                    disp_in = np.stack([rx_np_obs]*3,axis=-1)
+                    if path_coords and len(path_coords) > 1:
+                        pts=np.array(path_coords,dtype=np.int32).reshape((-1,1,2))
+                        cv2.polylines(disp_in,[pts],False,(0,1,0),1)
+                        if len(pts)>0:
+                            cv2.circle(disp_in,tuple(pts[0]),3,(0,0,1),-1)
+                            cv2.circle(disp_in,tuple(pts[-1]),3,(1,0,0),-1)
+                            
+                    axs[0].imshow(np.clip(disp_in,0,1)); axs[0].set_title("Input(Obst+Path)"); axs[0].axis('off')
+                    im1=axs[1].imshow(fy_np,cmap='viridis',vmin=0,vmax=1); axs[1].set_title("Generated"); axs[1].axis('off'); fig.colorbar(im1,ax=axs[1])
+                    im2=axs[2].imshow(ry_np,cmap='viridis',vmin=0,vmax=1); axs[2].set_title("Ground Truth"); axs[2].axis('off'); fig.colorbar(im2,ax=axs[2])
+                    
+                    plt.tight_layout(rect=[0,0.03,1,0.93])
+                    plt.savefig(os.path.join(EVAL_IMAGES_DIR,f"test_s{s_id}_p{p_id}.png"))
                     plt.close(fig)
-                    samples_visualized_count += 1
-    
-    # 5. Calcular y Mostrar/Guardar Métricas Agregadas
-    valid_peak_dist = [d for d in all_peak_dist if not np.isnan(d)]
-    
-    results_summary = f"--- Resultados de Evaluación en Conjunto de Test ({len(test_dataset)} muestras) ---\n"
-    results_summary += f"MAE (L1):                {np.mean(all_mae):.4f} +/- {np.std(all_mae):.4f}\n"
-    results_summary += f"MSE:                     {np.mean(all_mse):.4f} +/- {np.std(all_mse):.4f}\n"
-    results_summary += f"PSNR:                    {np.mean(all_psnr):.2f} dB +/- {np.std(all_psnr):.2f} dB\n"
-    if all_ssim:
-        results_summary += f"SSIM:                    {np.mean(all_ssim):.4f} +/- {np.std(all_ssim):.4f}\n"
-    else:
-        results_summary += f"SSIM:                    N/A (posiblemente por tamaño de ventana)\n"
 
-    results_summary += "\nMétricas Específicas del Dominio:\n"
-    if valid_peak_dist:
-        results_summary += f"Distancia al Pico (px):  {np.mean(valid_peak_dist):.2f} px +/- {np.std(valid_peak_dist):.2f} px\n"
-    else:
-        results_summary += f"Distancia al Pico (px):  N/A (no se pudieron calcular distancias válidas)\n"
-    if all_peak_intensity_err:
-        results_summary += f"Error Intensidad Pico:   {np.mean(all_peak_intensity_err):.4f} +/- {np.std(all_peak_intensity_err):.4f}\n"
-    else:
-        results_summary += f"Error Intensidad Pico:   N/A\n"
-    results_summary += f"IoU (umbral {IOU_THRESHOLD:.2f}):      {np.mean(all_iou):.4f} +/- {np.std(all_iou):.4f}\n"
+    # --- CÁLCULO Y GUARDADO DE MÉTRICAS FINALES ---
+    final_metrics = {"training_run_name":args.training_run_name, "num_test_samples":len(test_df)}
+    for key,values in all_metrics.items():
+        valid_v = [v for v in values if not np.isnan(v)]
+        final_metrics[f"{key}_mean"] = float(np.mean(valid_v)) if valid_v else np.nan
+        final_metrics[f"{key}_std"] = float(np.std(valid_v)) if valid_v else np.nan
+    final_metrics["iou_threshold_used"] = args.iou_threshold
     
-    print("\n" + results_summary)
-    with open(EVAL_RESULTS_FILE, 'w') as f:
-        f.write(results_summary)
-    print(f"Resultados guardados en: {EVAL_RESULTS_FILE}")
-    print(f"Imágenes de muestra guardadas en: {EVAL_IMAGES_DIR}")
-    print("--- Evaluación Finalizada ---")
+    print("\n--- Resultados Agregados de Evaluación ---")
+    print(json.dumps(final_metrics,indent=4))
+    
+    with open(METRICS_JSON_PATH,'w') as f:
+        json.dump(final_metrics,f,indent=4)
+    print(f"Métricas JSON guardadas en: {METRICS_JSON_PATH}")
 
 if __name__ == '__main__':
-    evaluate_model()
+    cli_args = get_args_predict()
+    evaluate_model_main(cli_args)
