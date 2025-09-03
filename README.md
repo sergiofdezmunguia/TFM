@@ -124,30 +124,19 @@ prediction = predict_gas_map(model, robot_path, obstacle_map)
 This is an academic research project. For questions or suggestions:
 
 1. Open an issue on GitHub
-2. Contact: sergio.fernandez@estudiante.uam.es
+2. Contact: sergio.fernandezm02@estudiante.uam.es
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Citation
 
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{fernandez2024tfm,
-  title={Gas Dispersion Mapping using Conditional GANs},
-  author={Fernández de Munguía, Sergio},
-  year={2024},
-  institution={Universidad Autónoma de Madrid}
-}
-```
 
 ## Acknowledgments
 
 - Universidad Autónoma de Madrid - EPS
-- Master in Computer Engineering and Networks
-- Deep Learning and Computer Vision Research Group
+- Master in Data Science
+- Informatic Engineer University Department
 
 ---
 
