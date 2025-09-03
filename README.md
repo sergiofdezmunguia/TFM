@@ -136,7 +136,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Universidad Autónoma de Madrid - EPS
 - Master in Data Science
-- Informatic Engineer University Department
+- Computer Engineer University Department
 
 ---
 
