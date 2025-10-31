@@ -37,6 +37,9 @@ git clone https://github.com/sergiofdezmunguia/TFM.git
 cd TFM
 ```
 
+### Validation Dataset
+A subset of the ground truth validation data is available in `data/validation_samples/` for model evaluation and thesis supervisor review. This dataset contains 30 representative samples evenly distributed across different configurations.
+
 2. Create virtual environment:
 ```bash
 python -m venv venv
