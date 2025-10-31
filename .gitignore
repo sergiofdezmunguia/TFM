@@ -9,6 +9,7 @@ data/processed_for_model*/
 data/metadata/
 !data/README.md
 !data/maps/
+!data/validation_samples/
 
 # Model outputs
 models_outputs/
